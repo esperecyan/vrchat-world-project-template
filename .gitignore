@@ -6,6 +6,18 @@
 /Assets/Udon*
 /Packages/com.vrchat.vrcsdk3
 
+# UdonSharpで追加された Assets/VRCSDK 内のファイルを除外しないように
+!/Assets/VRCSDK/Dependencies
+/Assets/VRCSDK/Dependencies/*
+!/Assets/VRCSDK/Dependencies/Managed
+/Assets/VRCSDK/Dependencies/Managed/*
+!/Assets/VRCSDK/Dependencies/Managed/Microsoft.CodeAnalysis.CSharp.dll
+!/Assets/VRCSDK/Dependencies/Managed/Microsoft.CodeAnalysis.CSharp.dll.meta
+!/Assets/VRCSDK/Dependencies/Managed/Microsoft.CodeAnalysis.dll
+!/Assets/VRCSDK/Dependencies/Managed/Microsoft.CodeAnalysis.dll.meta
+!/Assets/VRCSDK/Dependencies/Managed/System.Reflection.Metadata.dll
+!/Assets/VRCSDK/Dependencies/Managed/System.Reflection.Metadata.dll.meta
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
