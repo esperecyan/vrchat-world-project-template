@@ -1,3 +1,11 @@
+# VRChat SDK3-Worlds
+/Assets/VRCSDK/*
+/Assets/VRCSDK.meta
+!/Assets/VRCSDK/version.txt
+/Assets/VRChat Examples*
+/Assets/Udon*
+/Packages/com.vrchat.vrcsdk3
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
